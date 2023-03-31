@@ -1,0 +1,6 @@
+
+@FakeGetter
+public class MyLombokTest {
+
+
+}

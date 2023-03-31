@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'org.test'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.auto.value:auto-value:1.7.3'
+    implementation 'com.google.auto.service:auto-service:1.0-rc4'
+    implementation 'com.github.olivergondza:maven-jdk-tools-wrapper:0.1'
+    implementation 'dev.zacsweers.autoservice.ksp:dev.zacsweers.autoservice.ksp.gradle.plugin:0.2.1'
+}
+
+test {
+    useJUnitPlatform()
+}
